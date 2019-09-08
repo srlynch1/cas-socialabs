@@ -18,7 +18,8 @@
                     <path d="M303.16,269.94 L377.59,196.07 C384.177895,189.514477 387.88167,180.603828 387.88167,171.31 C387.88167,162.016172 384.177895,153.105523 377.59,146.55 L303.21,72.72 L204.61,171.35 L303.16,269.94 Z M366.32,184.71 L303.22,247.34 L227.22,171.34 L303.22,95.34 L366.3,157.95 C369.859529,161.502942 371.859807,166.325721 371.859807,171.355 C371.859807,176.384279 369.859529,181.207058 366.3,184.76 L366.32,184.71 Z" id="Shape" fill="#60B515"></path>
                 </g>
                 <text id="Cloud-Automation-Ser" font-family="Metropolis-Light, Metropolis" font-size="96" font-weight="300" letter-spacing="0.1" fill="#FFFFFF">
-                    <tspan x="0" y="724">vRealize Automation Cloud Labs</tspan>
+                    <tspan x="0" y="724">vRealize Automation Cloud</tspan>
+                    <tspan x="0" y="724">Labs</tspan>
                 </text>
             </g>
         </g>
