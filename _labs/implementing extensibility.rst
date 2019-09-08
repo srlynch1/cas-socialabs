@@ -133,7 +133,7 @@ It's common that you may only want to execute an extensibility action/workflow i
 Challenge
 =========
 
-1. There are a number of "pre-canned" ABX actions available. Can you configure the rename blueprint to change the name of your machine deployments? Experiment with blocking tasks. 
+1. There are a number of "pre-canned" ABX actions templates available. Use the rename  template to change the name of your machine deployment?  
 
 2. Can you execute a REST API call to the Star Wars API? (https://swapi.co)?
 

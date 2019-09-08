@@ -102,3 +102,11 @@ This trigger allows pipelines to execute as Docker images are pushed into a Dock
 Gerrit
 ------
 This trigger allows pipelines to execute after code is checked into a Gerrit server. 
+
+Challenge
+=========
+
+1. Create a basic pipeline using the blueprint task to consume an existing blueprint 
+2. Create a github or gitlab repository
+3. Connect this repository as an endpoint in Code Stream and then setup a trigger.
+4. Make a commit  and push changes to trigger the pipeline execution.
