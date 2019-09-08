@@ -1,5 +1,5 @@
-Welcome to the Cloud Automation SociaLabs!
-==========================================
+Welcome to the vRealize Automation Labs!
+========================================
 
 .. toctree::
    :maxdepth: 2
@@ -78,13 +78,8 @@ Before each module, the instructor will discuss and demonstrate the topic. Whils
 +----------+---------------------------------------------------+---------------------------+
 
 
+
 We encourage the use of hand signals to seek attention. This method can be used if you a question, having objective problems, thirsty, hungry or if you just don't like the presenter.
 
 For more information on this event and the lab guide visit `the about page <https://cas-socialabs.vmwapj.com/about.html>`__. This guide is generated from `the following repo <https://github.com/grantorchard/cas-socialabs/>`__.
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

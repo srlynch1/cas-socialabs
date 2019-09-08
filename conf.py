@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Cloud Automation Services SociaLabs'
+project = 'vRealize Automation Cloud Labs'
 copyright = '2019'
 author = 'Brett Drayton, Grant Orchard, and Tony Phan'
 
@@ -119,7 +119,7 @@ html_sidebars = {}
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Cloud Automation Services SociaLabs'
+htmlhelp_basename = 'vRealize Automation Cloud Labs'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -146,7 +146,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'cas-socialabs.tex', 'Cloud Automation Services SociaLabs',
+    (master_doc, 'cas-socialabs.tex', 'vRealize Automation Cloud Labs',
      'Tony Phan, Brett Drayton, and Grant Orchard', 'manual'),
 ]
 
@@ -156,7 +156,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'Cloud Automation Services SociaLabs', 'Cloud Automation Services SociaLabs',
+    (master_doc, 'vRealize Automation Cloud Labs', 'vRealize Automation Cloud Labs',
      [author], 1)
 ]
 
@@ -167,8 +167,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Cloud Automation Services SociaLabs', 'Cloud Automation Services SociaLabs Documentation',
-     author, 'Cloud Automation Services SociaLabs', 'One line description of project.',
+    (master_doc, 'vRealize Automation Cloud Labs', 'vRealize Automation Cloud Labs Documentation',
+     author, 'vRealize Automation Cloud Labs', 'One line description of project.',
      'Miscellaneous'),
 ]
 
