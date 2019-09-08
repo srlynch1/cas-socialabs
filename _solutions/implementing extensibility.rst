@@ -39,7 +39,7 @@ Challenge Soluiton 01. Change a Machine Name/Blocking Task
 
     return outputs
 
-1. Create a subscription for the compute pre-provisioning event 
+1. Create a subscription for the compute pre-allocation event 
 2. Enable blocking on subscription
 3. Configure an additional property on the blueprint named ``newName`` and enter your new machine name 
 

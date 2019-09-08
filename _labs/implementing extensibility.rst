@@ -123,7 +123,7 @@ It's common that you may only want to execute an extensibility action/workflow i
 2. Select **Subscriptions**
 3. Select your Property Printing subscription
 4. Enable the **"Filter events in topic"** Condition toggle 
-5. Using JavaScript dot syntanx, enter ``event.customPropertes.insert == 'property'`` as the filter. This will enable the subscription to only run when the indicated value is present (property in this case)
+5. Using JavaScript dot syntanx, enter ``event.data.customPropertes.insert == 'property'`` as the filter. This will enable the subscription to only run when the indicated value is present (property in this case)
 
 .. image:: ../_static/property-filtering.jpg
 
