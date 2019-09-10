@@ -17,9 +17,9 @@ Solution 01. Add cloudConfig to Blueprint
         title: Deploy to
         oneOf:
           - title: AWS
-            const: 'platform:aws'
+            const: 'env:aws'
           - title: Azure
-            const: 'platform:azure'
+            const: 'env:azure'
     resources:
       Cloud_Machine_1:
         type: Cloud.Machine
@@ -59,9 +59,9 @@ Challenge 01. Using cloud-init **packages** module, install *Apache*
         title: Deploy to
         oneOf:
           - title: AWS
-            const: platform:aws
+            const: env:aws
           - title: Azure
-            const: platform:azure
+            const: env:azure
     resources:
       Cloud_Machine_1:
       type: Cloud.Machine
@@ -104,9 +104,9 @@ Challenge 02. Using cloud-init **runcmd** module, install the *Wavefront Telegra
         title: Deploy to
         oneOf:
           - title: AWS
-            const: platform:aws
+            const: env:aws
           - title: Azure
-            const: platform:azure
+            const: env:azure
     resources:
       Cloud_Machine_1:
       type: Cloud.Machine
@@ -134,4 +134,4 @@ Challenge 02. Using cloud-init **runcmd** module, install the *Wavefront Telegra
             - apache2
 
           runcmd:
-            - sudo bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address ec2-54-153-128-0.ap-southeast-2.compute.amazonaws.com --proxy-port 2878 --agent-tags="cas-socialabs"
+            - sudo bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address ec2-54-153-128-0.ap-southeast-2.compute.amazonaws.com --proxy-port 2878 --agent-tags="pso"
