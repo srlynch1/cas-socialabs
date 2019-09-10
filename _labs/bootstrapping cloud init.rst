@@ -9,7 +9,36 @@ In that case, you would simply use cloud-init to bring your new instance to a st
 
 .. note:: Whenever you see #TODO in a code sample, you need to replace the line with the appropriate syntax. Refer to the linked documents if you need assistance.
 
-You'll now need clone the **Basic IaaS with Inputs** blueprint to **Basic IaaS with cloud-init** to get started.
+You'll now need create a new blueprint called **Basic IaaS with cloud-init** to get started.
+
+Sample Blueprint YAML
+---------------------
+
+.. code-block:: yaml
+   :linenos:
+
+    formatVersion: 1
+    version: 1.0
+    name: Basic IaaS with cloud-init
+    formatVersion: 1
+    inputs:
+      tshirtsize:
+        type: string
+        title: Select Machine size
+        oneOf:
+          - title: Small
+            const: 'Small'
+          - title: Medium
+            const: 'Medium'
+        default: Small
+    resources:
+    machine:
+      type: Cloud.Machine
+      properties:
+      flavor: '${input.tshirtsize}'
+      constraints:
+        - tag: 'env:aws'
+      #TODO add cloud-init configuration
 
 cloud-init Configuration
 ========================
@@ -54,34 +83,7 @@ Add cloudConfig to Blueprint
 2.  Add the comment ``#cloud-config``, this is good practice
 3.  Add the *socialab* user using the above example
 
-Sample YAML
------------
 
-.. code-block:: yaml
-   :linenos:
-
-    formatVersion: 1
-    version: 1.0
-    name: Basic IaaS with Inputs
-    formatVersion: 1
-    inputs:
-      tshirtsize:
-        type: string
-        title: Select Machine size
-        oneOf:
-          - title: Small
-            const: 'small'
-          - title: Medium
-            const: 'medium'
-        default: Small
-    resources:
-    machine:
-      type: Cloud.Machine
-      properties:
-      flavor: '${input.tshirtsize}'
-      constraints:
-        - tag: 'env:aws'
-      #TODO add cloud-init configuration
 
 Deploy Blueprint
 ----------------

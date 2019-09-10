@@ -99,6 +99,13 @@ Challenge 02. Using cloud-init **runcmd** module, install the *Wavefront Telegra
     inputs:
       tshirtsize:
         type: string
+        title: Select Machine size
+        oneOf:
+          - title: Small
+            const: 'Small'
+          - title: Medium
+            const: 'Medium'
+        default: Small
       platform:
         type: string
         title: Deploy to
