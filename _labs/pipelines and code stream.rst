@@ -110,3 +110,8 @@ Challenge
 2. Create a github or gitlab repository
 3. Connect this repository as an endpoint in Code Stream and then setup a trigger.
 4. Make a commit  and push changes to trigger the pipeline execution.
+
+Further Reading
+===============
+
+1. `How do I automate the release of an application that I deploy from a YAML blueprint in VMware Code Stream <https://docs.vmware.com/en/VMware-Code-Stream/services/Using-and-Managing-CodeStream/GUID-4175CD2C-AEF4-4964-A0DC-77E84FECF119.html>`__
