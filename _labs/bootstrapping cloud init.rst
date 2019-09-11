@@ -102,7 +102,7 @@ macOS
 -----
 
 1.  Download the private key `socialab_id_rsa.pem <https://www.dropbox.com/s/7ys9ad3ud57xrj9/socialab_id_rsa.pem?dl=0>`__
-2.  you may need to change ``permissions chmod 600 socialab_id.rsa.pem``
+2.  you may need to change permissions ``chmod 600 socialab_id.rsa.pem``
 3.  Open Terminal and run ``ssh -i socialab_id.rsa.pem socialab@your_deployed_machine_fqdn_or_ip``
 
 Windows
