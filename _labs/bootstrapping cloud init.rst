@@ -32,13 +32,14 @@ Sample Blueprint YAML
             const: 'Medium'
         default: Small
     resources:
-    machine:
-      type: Cloud.Machine
-      properties:
-      flavor: '${input.tshirtsize}'
-      constraints:
-        - tag: 'env:aws'
-      #TODO add cloud-init configuration
+      machine:
+        type: Cloud.Machine
+        properties:
+          image: Ubuntu
+          flavor: '${input.tshirtsize}'
+          constraints:
+            - tag: 'env:aws'
+          #TODO add cloud-init configuration
 
 cloud-init Configuration
 ========================
