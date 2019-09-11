@@ -66,7 +66,7 @@ Challenge 01. Using cloud-init **packages** module, install *Apache*
       Cloud_Machine_1:
       type: Cloud.Machine
       properties:
-        image: ubuntu
+        image: Ubuntu
         flavor: '${input.tshirtsize}'
         constraints:
           - tag: '${input.platform}'
